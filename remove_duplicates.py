@@ -1,5 +1,7 @@
-# Write a Python program to remove duplicates from a list.
-list2=["apple","orange","apple","banana"]
-s1=set(list2)
-list2=list(s1)
-print(list2)
+# Remove duplicate characters from the string
+string_new = "abbc"
+list_new = list(string_new)
+set_new = set(list_new)
+back_to_string = repr(set_new)
+print(back_to_string)
+#print(type(back_to_string))
